@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/c_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/title"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:id="@+id/c_sub_title"
+        android:text="@string/sub_title"
+        android:layout_below="@id/c_title"
+        />
+
+    <TextView
+        android:text="@string/price"
+        android:id="@+id/c_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/RED"
+        android:layout_marginLeft="20sp"
+        android:layout_below="@id/c_sub_title"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$"
+        android:layout_toRightOf="@+id/c_price"
+        android:textColor="@color/RED"
+        android:layout_below="@+id/c_sub_title"/>
+
+    <ImageView
+        android:layout_width="59dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/c_sub_title"
+        android:layout_marginLeft="254dp"
+        android:layout_toRightOf="@+id/c_price"
+        android:src="@drawable/ic_trash" />
+
+
+</RelativeLayout>

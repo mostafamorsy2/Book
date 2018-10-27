@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">BookShop</string>
+    <string name="price">Price</string>
+    <string name="sub_title">Sub Title</string>
+    <string name="title">Title</string>
+    <string name="user_name">User Name</string>
+    <string name="visa">Visa</string>
+    <string name="visa_number">Visa Number</string>
+    <string name="buy">Buy</string>
+    <string name="cancel">Cancel</string>
+    <string name="log">Login</string>
+    <string name="newAccount">Don\'t Have An Account?\nSign Up</string>
+    <string name="enter_name">Enter Full Name</string>
+    <string name="password">Enter Your Password</string>
+    <string name="phone">Enter Your Mobile</string>
+    <string name="register">Register</string>
+    Register
+    <string name="create_account">Create Account</string>
+
+</resources>

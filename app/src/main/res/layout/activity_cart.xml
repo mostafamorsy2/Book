@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@drawable/wall"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <LinearLayout
+        android:id="@+id/layout_total"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="5dp"
+
+        android:weightSum="2">
+        <TextView
+            android:gravity="end"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:text="Total : "
+            android:textSize="20dp"
+            android:textColor="@color/White">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_total"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:text="0 $"
+            android:textSize="20dp"
+            android:textColor="@color/RED">
+        </TextView>
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/recycler_cart"
+        android:layout_width="match_parent"
+        android:layout_height="438dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_below="@id/layout_total"
+        android:layout_marginTop="38dp">
+
+    </ListView>
+
+    <EditText
+        android:id="@+id/visa"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_above="@+id/btn_confirm"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center"
+        android:layout_margin="12dp"
+        android:drawableLeft="@drawable/visa"
+        android:drawablePadding="10dp"
+        android:hint="Enter Your Visa"
+        android:inputType="number"
+        android:paddingLeft="12dp"
+        android:textAlignment="center"
+        android:textColor="@color/White"
+        android:textColorHint="@color/Gray" />
+
+    <Button
+        android:id="@+id/btn_confirm"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:background="@drawable/buyy"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        >
+
+    </Button>
+
+</RelativeLayout>

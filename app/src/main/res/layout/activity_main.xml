@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wall"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+  <ImageView
+      android:id="@+id/img"
+      android:layout_width="match_parent"
+      android:layout_height="200dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginBottom="15dp"
+      android:src="@drawable/bookico1" />
+
+  <ImageView
+      android:id="@+id/img2"
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:scaleType="centerCrop"
+      android:layout_marginBottom="30dp"
+      android:src="@drawable/bookshop2" />
+  <EditText
+      android:id="@+id/name"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+
+      android:layout_margin="8dp"
+      android:drawableLeft="@drawable/contact"
+      android:drawablePadding="10dp"
+      android:hint="@string/enter_name"
+      android:singleLine="true"
+      android:textColor="@color/White"
+      android:textColorHint="@color/Gray" />
+
+
+  <EditText
+      android:id="@+id/password"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="8dp"
+      android:drawableLeft="@drawable/key"
+      android:drawablePadding="10dp"
+      android:ems="10"
+      android:hint="@string/password"
+      android:inputType="textPassword"
+      android:singleLine="true"
+      android:textColor="@color/White"
+      android:textColorHint="@color/Gray"  />
+
+  <Button
+      android:id="@+id/login"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_margin="32dp"
+      android:fontFamily="monospace"
+      android:text="@string/log"
+      android:textColor="@android:color/black"
+      android:textSize="15sp"
+      android:textStyle="italic" />
+
+  <TextView
+      android:id="@+id/newAcc"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/newAccount"
+      android:textAlignment="center"
+      android:textColor="@android:color/background_light" />
+
+
+</LinearLayout>
